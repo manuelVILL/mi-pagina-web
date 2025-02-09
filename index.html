@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propuestas para una Mejor Institución</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #003366, #1a1a1a);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(0, 0, 0, 0.5);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1, h2 {
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #ffcc00;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 50px 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    ul li i {
+      margin-right: 15px;
+      color: #ffcc00;
+      font-size: 1.5em;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea, button {
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      background: #ffcc00;
+      color: #003366;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #e6b800;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a1a;
+      margin-top: 50px;
+    }
+
+    /* Animaciones */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        padding: 50px 20px;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Propuestas para una Mejor Institución</h1>
+    <p>Transparencia, eficiencia y compromiso para un futuro mejor.</p> <!-- Lema actualizado -->
+  </header>
+
+  <section id="propuestas">
+    <h2>Mis Propuestas</h2>
+    <ul>
+      <li><i class="fas fa-check-circle"></i>Velar por el cumplimiento del manual de convivencia y derechos de los estudiantes.</li>
+      <li><i class="fas fa-futbol"></i>Promover y realizar el deporte con torneos, desafíos y demás disciplinas deportivas.</li>
+      <li><i class="fas fa-paint-brush"></i>Promover la integración en actividades lúdicas, artísticas y de diversión.</li>
+      <li><i class="fas fa-recycle"></i>Realizar campañas de reciclaje para recoger fondos para el mejoramiento de la institución.</li>
+      <li><i class="fas fa-lightbulb"></i>Promover ferias de emprendimiento para demostrar los talentos de los estudiantes.</li>
+      <li><i class="fas fa-hand-holding-water"></i>Realizar una buena limpieza en los tanques de la institución para evitar enfermedades.</li>
+      <li><i class="fas fa-paint-roller"></i>Realizar equipos de mejoramiento y embellecimiento de la institución, salones y zonas comunes.</li>
+      <li><i class="fas fa-chart-line"></i>Velar que los recursos recogidos sean administrados adecuadamente e informes de gestión.</li>
+      <li><i class="fas fa-users"></i>Generar espacios para mejorar la integridad social y evitar ofensas entre los compañeros.</li>
+      <li><i class="fas fa-handshake"></i>Seré un amigo para todos, en quien podrán confiar, escucharé y tendré en cuenta todas las sugerencias para el mejoramiento de la institución, estudiantes y maestros.</li>
+    </ul>
+  </section>
+
+  <section id="equipo">
+    <h2>Mi Equipo de Trabajo</h2>
+    <p>Aquí les presento a mi equipo de trabajo, un grupo de personas comprometidas con el cambio y el bienestar de todos.</p>
+    <ul>
+      <li><i class="fas fa-user"></i>NATALIA ALVARES CARRASQUILLA</li>
+      <li><i class="fas fa-user"></i>SANTIAGO ALEXANDER DURAN LOPEZ</li>
+      <li><i class="fas fa-user"></i>TAILIN VALENTINA TAMAYO VILLAMIZAR</li>
+      <li><i class="fas fa-user"></i>FRANCIS NICOLE RIVIERA BERNAL</li>
+    </ul>
+  </section>
+
+  <section id="buzon">
+    <h2>Tu Voz Cuenta</h2>
+    <form action="https://formspree.io/f/mldglzyg" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre (opcional)">
+      <textarea name="sugerencia" placeholder="Escribe tu sugerencia aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025. Todos los derechos reservados.</p> <!-- Año actualizado -->
+  </footer>
+</body>
+</html>
